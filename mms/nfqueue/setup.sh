@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "[+] BE CAREFUL: this script is intended to run while arpspoofing is in progress!"
 echo "[+] If it isn't run in two different terminal:"
-echo "[+] TERMINAL 1: arpspoof ip1 ip2"
-echo "[+] TERMINAL 2: arpspoof ip2 ip1"
+echo "[+] TERMINAL 1: arpspoof -i <interface> -t ip1 ip2"
+echo "[+] TERMINAL 2: arpspoof -i <interface> -t ip2 ip1"
 echo "[+] KEEP THOSE TERMINALS OPEN DURING THE ATTACK"
 echo "[+] to open multiple terminals in the same container:"
 echo "[+] docker exec -it <container> bash"
